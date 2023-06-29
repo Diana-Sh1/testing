@@ -52,6 +52,12 @@ let g = arrayString.reduce((accum, item) => {
 },[]);
 console.log(g);
 
+//entries()
+let arr1 = ['a', 'b', 'c'];
+// let eArr = arr1.entries();
+console.log(Object.entries(arr1))
+
+
 
 
 
