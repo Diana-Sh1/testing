@@ -53,10 +53,18 @@ let g = arrayString.reduce((accum, item) => {
 console.log(g);
 
 //entries()
-let arr1 = ['a', 'b', 'c'];
-// let eArr = arr1.entries();
-console.log(Object.entries(arr1))
+let obj = {
+    'name': 'Ann',
+    'age': 25,
+    'city': 'Mos'
+}
 
+//задачка - является ли слово палиндромом
+
+function palindrome(str) {
+    return str.split('').reverse().join('') === str;
+}
+console.log(palindrome('avava'));
 
 
 
